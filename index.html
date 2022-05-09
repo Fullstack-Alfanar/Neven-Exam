@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 class="enwan"> Add product </h1>
+    </div>
+    <div class="form">
+        <div>
+            <label class="pname"> Product Name</label>
+            <input class="pnameInput" type="text" id="productName" placeholder="product Name" required>
+        </div>
+        <div>
+            <label class="pprice"> Product price </label>
+            <input class="ppriceInput" type="number" id="productPrice" placeholder="product price" required>
+        </div>
+        <div>
+            <label class="urlclass">Url image </label>
+            <input class="inputclass" type="url" id="urlImg" placeholder="url image" required>
+
+        </div>
+        <div>
+            <label class="choose"> choose a Category</label>
+            <select class="selectt" id="select">
+                <option value="choose">choose</option>
+                <option value="Drinks"> Drinks </option>
+                <option value="Meat"> Meat</option>
+                <option value="Dairly">Dairly</option>
+                <option value="Snacks">Snacks</option>
+                <option value="Basic">Basic</option>
+            </select>
+        </div>
+        <div>
+            <button class="btnn" id="bt" onclick="checkvalues()"> Add product</button>
+        </div>
+    </div>
+    <div>
+    <table class="tablee">
+        <thead>
+            <tr>
+                <td class="tdnamee"> Product name</td>
+                <td class="tdproductt">Product price</td>
+                <td class="tdcategoryy"> category </td>
+                <td class="tdimgg"> img </td>
+                <td class=""> Actions </td>
+
+            </tr>
+        </thead>
+        <tbody id="tbodyy">
+
+        </tbody>
+    </table>
+</div>
+<div><img class="welcomeImg" src="https://thumbs.dreamstime.com/b/welcome-to-our-shop-sign-design-monochrome-drop-shadow-white-background-vector-your-store-cafe-stall-94601507.jpg" alt="welcome">
+</div>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>

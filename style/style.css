@@ -1,0 +1,167 @@
+body {
+    background-color: #abdbe3;
+}
+
+.enwan {
+    margin-left: 700px;
+    color: #e28743;
+    font-weight: bolder;
+}
+
+.form {
+    margin-left: 700px;
+    font-weight: bolder;
+}
+
+.pname {
+    font-size: 22px;
+}
+.pname:hover{
+    color: #e28743;
+}
+
+.pnameInput {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.pprice {
+    font-size: 22px;
+    margin-left: 80px;
+}
+.pprice:hover{
+    color: #e28743;
+}
+
+.ppriceInput {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.urlclass {
+    font-size: 22px;
+    margin-left: 170px;
+}
+.urlclass:hover{
+    color: #e28743;
+}
+
+.inputclass {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.choose {
+    font-size: 22px;
+    margin-left: 200px;
+}
+.choose:hover{
+    color: #e28743;
+}
+
+.selectt {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.btnn {
+    position: absolute;
+    top: 30px;
+    margin-left: 210px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #e28743;
+    box-shadow: 3px 3px 5px 5px;
+    animation: shake 0.5s;
+    animation-duration: 3s;
+}
+
+tr {
+    background-color: #e28743;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.holderimg {
+    width: 70px;
+    height: 70px;
+}
+
+.tablee {
+    position: absolute;
+    top: 10px;
+
+}
+
+.actions {}
+
+.welcomeImg {
+    margin-bottom: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 400px;
+    animation: shake 0.5s;
+    animation-duration: 3s;
+}
+
+@keyframes shake {
+
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+.priceStyle {
+    margin-left: 30px;
+
+}
+
+.namestyle{
+    margin-left: 30px;
+    
+}
