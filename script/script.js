@@ -68,6 +68,10 @@ function checkvalues() {
         addItem(ProName.value, ProPrice.value, categoryy.value, imgg.value);
         setItemtoLocal(obj);
     }
+    ProName.value = "";
+    ProPrice.value = "";
+    categoryy.value = "";
+    imgg.value = "";
 }
 
 function setItemtoLocal(obj) {
